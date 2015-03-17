@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@color/amarillo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+         >
+
+        <Button
+            android:id="@+id/menBoToNAnadir"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Reserva" />
+
+        <Button
+            android:id="@+id/menBoToNEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar Mis Proximas Reservas"
+            style="@style/btnStyle" />
+        
+        <Button
+            android:id="@+id/menBoToNInvitar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invitar Jugador"
+            style="@style/btnStyle" />
+         <Button
+            android:id="@+id/menBoToNConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Fecha"
+            style="@style/btnStyle" />
+
+    </LinearLayout>
+
+</RelativeLayout>

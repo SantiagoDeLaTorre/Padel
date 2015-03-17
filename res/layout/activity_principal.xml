@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@color/amarillo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/logEdtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:hint="Email">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/logEdtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" 
+            android:password="true"/>
+
+        <Button
+            android:id="@+id/logBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/btnStyle"
+            android:text="Entrar" />
+
+        <TextView
+            android:id="@+id/txtReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar Nueva Cuenta"
+            android:textColor="@color/marron"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</RelativeLayout>

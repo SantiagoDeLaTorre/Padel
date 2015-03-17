@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Padel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_invitar">Invitar Jugador</string>
+    <string name="title_activity_consultar_fecha_reserva">Consulta Reservas</string>
+    <string name="title_activity_anadir">Añadir Reserva</string>
+    <string name="title_activity_listar_reserva">ListarReservaActivity</string>
+    <string name="title_activity_editar">Editar Reserva</string>
+    <string name="title_activity_editar_reserva">Editar Reserva</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
