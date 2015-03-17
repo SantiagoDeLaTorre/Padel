@@ -32,7 +32,7 @@ public class ComprobarFechas {
 	}
 
 	public static  String comprobarHora(TimePicker hora) {
-		String error = "";
+		String error = ""; //
 		int hor = hora.getCurrentHour();
 		if (hor >= 22)
 			error = "No puede reservar a partir de las 22H";
